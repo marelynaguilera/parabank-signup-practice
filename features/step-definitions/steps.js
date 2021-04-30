@@ -33,5 +33,8 @@ Then("I get an error messages for all fields", () => {
     SignupPage.failedSignUpMissingData();
 });
 
+Then(/^I get an error message for password confirmation "(.*)"$/, (failureMessage) => {
+    SignupPage.failedSignUpPasswordDontMatch(failureMessage);
+});
 
 

@@ -152,6 +152,11 @@ class SignupPage extends Page {
         const labelConfirmedPasswordError = this.labelConfirmedPasswordError
         expect(labelConfirmedPasswordError).toHaveText("Password confirmation is required.")
     }
+
+    failedSignUpPasswordDontMatch(failureMessage){
+        const labelConfirmedPasswordError = this.labelConfirmedPasswordError
+        expect(labelConfirmedPasswordError).toHaveText(failureMessage)
+    }
     
 }
 
