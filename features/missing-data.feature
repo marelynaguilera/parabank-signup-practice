@@ -1,6 +1,6 @@
 Feature: Failed sign up at parabank due to missing information
 
-  Scenario Outline: As an existing user I can't sign up successfully at parabank 
+  Scenario Outline: As an user I can't sign up successfully when don't provide all information 
 
     Given I am on Parabank sign up page
     When I signup with information:
