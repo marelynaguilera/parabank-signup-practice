@@ -9,8 +9,8 @@ This is a demo to automate test to sign up at Parabank build in webdriverIO usin
 This project requires to Install Java, node and npm.
 
 ## Setup
-Clone the git repo `git clone git@github.com:marelynaguilera/parabank-signup-practice.git`
-Go to folder `parabank-signup-practice`
+Clone the git repo `git clone git@github.com:marelynaguilera/parabank-signup-practice.git` 
+Go to folder `parabank-signup-practice` 
 Run `npm install`
 
 ## Run tests
